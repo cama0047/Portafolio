@@ -9,7 +9,7 @@ export default function SignUp() {
       
       <div>
 
-        Information of contacr 
+        Contact Information 
         </div>
 
 
