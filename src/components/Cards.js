@@ -11,7 +11,7 @@ function Cards() {
           
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
+              src='images/Scrapp.png'
               text='Scrap-app: taking the show to another level'
               label='React'
               path='/services'
@@ -52,7 +52,7 @@ function Cards() {
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='images/c.png'
               text='File Explorer in C# and Xaml'
               label='C#'
               path='/products'
