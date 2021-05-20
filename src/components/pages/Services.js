@@ -1,16 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-//import '../../App.css';
 import '../../Services.scss';
 
 export default function Services() {
   
-  const [click, setClick] = useState(false);
-  const [isActive, setActive] = useState(false);
+  // const [click, setClick] = useState(false);
+  // const [isActive, setActive] = useState(false);
   const [expanded, setExpanded] = useState(false);
-  const id ="a";
-
-
 
   const handleClick = (ev) => {
    
@@ -19,29 +15,22 @@ export default function Services() {
     const divClicked = ev.target.id; //identificando que elemento fue clickeado
     expandir(divClicked); //se llama a la funcion expanir y por parametro el objeto clickeado
     
-
   }
 
   const expandir = (divClicked) =>{
 
-  var tile = document.getElementsByClassName('.strips__strip');
-  var tileLink = document.getElementsByClassName('.strips__strip > .strip__content');
-  //var tileText = tileLink.document.getElementsByClassName('.strip__inner-text');
-  var stripClose = document.getElementsByClassName('.strip__close');
-
   /*------ PRINT -------*/
-  console.log(expanded);
+  console.log(expanded); //Estado de expanded
   console.log("DivClicked: ",divClicked); //imprimir que fue clickeado 
 
     if (!expanded) {
       document.getElementById(`${divClicked}`).classList.add("strips__strip--expanded");
-      
-      setExpanded(true);
+      setExpanded(true); //Cambio la propiedad para poder cerrarlo 
     }
 
     if (expanded) {
       document.getElementById(`${divClicked}`).classList.remove("strips__strip--expanded");
-      setExpanded(false);
+      setExpanded(false);//Cambio la propiedad para poder abrirlo 
     }
   }
 
@@ -64,9 +53,10 @@ export default function Services() {
       <h1 className="strip__title" data-name="Back">Back-End</h1>
       <div className="strip__inner-text">
         <h2>Back-End</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
+        <p>I have had the opportunity to be certified as an oracle database administrator, however my passion to go further has led me to know relational and non-relational databases.</p><br></br>
+          <p>Here are some of them: </p>
         <p>
-          <Link href="https://twitter.com/ettrics" target="_blank"><i className="fa fa-twitter"></i></Link>
+          <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
     
       </div>
@@ -81,7 +71,7 @@ export default function Services() {
         <h2>Front-End</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
         <p>
-          <Link href="https://twitter.com/ettrics" target="_blank"><i className="fa fa-twitter"></i></Link>
+          <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
       </div>
     </div>
@@ -91,9 +81,10 @@ export default function Services() {
       <h1 className="strip__title" data-name="Data">Databases</h1>
       <div className="strip__inner-text">
         <h2>Databases</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
+        <p>I have had the opportunity to be certified as an oracle database administrator, however my passion to go further has led me to know relational and non-relational databases.</p><br></br>
+          <p>Here are some of them: </p>
         <p>
-          <Link href="https://twitter.com/ettrics" target="_blank"><i className="fa fa-twitter"></i></Link>
+          <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
       </div>
     </div>
@@ -105,7 +96,7 @@ export default function Services() {
         <h2>DevOps</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
         <p>
-          <Link href="https://twitter.com/ettrics" target="_blank"><i className="fa fa-twitter"></i></Link>
+          <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
       </div>
     </div>
@@ -118,7 +109,7 @@ export default function Services() {
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
         <p>
         
-          <Link href="https://twitter.com/ettrics" target="_blank"><i className="fa fa-twitter"></i></Link>
+          <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
       </div>
     </div>
