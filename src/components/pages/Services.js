@@ -55,6 +55,14 @@ export default function Services() {
         <h2>Back-End</h2>
         <p>I have had the opportunity to be certified as an oracle database administrator, however my passion to go further has led me to know relational and non-relational databases.</p><br></br>
           <p>Here are some of them: </p>
+
+          <ol>
+      <li> Node</li>
+      <li> Frameworks - React</li>
+      <li> UX/UI</li>
+      <li> Adobe Suite - XD, Photoshop, Illustrator, Premier Pro</li>
+
+    </ol>
         <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
@@ -70,6 +78,13 @@ export default function Services() {
       <div className="strip__inner-text">
         <h2>Front-End</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
+        <ol>
+      <li> Basic - HTML-CSS-JavaScript</li>
+      <li> Frameworks - React</li>
+      <li> UX/UI</li>
+      <li> Adobe Suite - XD, Photoshop, Illustrator, Premier Pro</li>
+
+    </ol>
         <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
@@ -83,6 +98,13 @@ export default function Services() {
         <h2>Databases</h2>
         <p>I have had the opportunity to be certified as an oracle database administrator, however my passion to go further has led me to know relational and non-relational databases.</p><br></br>
           <p>Here are some of them: </p>
+
+          <ol>
+      <li> RDBMS - oracle</li>
+      <li> NoSQL - Mongo</li>
+      
+    </ol>
+
         <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
@@ -95,6 +117,11 @@ export default function Services() {
       <div className="strip__inner-text">
         <h2>DevOps</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
+<ol>
+      <li> Infrastructure - Azure & AWS</li>
+      <li> Virtualization - Docker-Kubernetes - VMWARE</li>
+    </ol>
+
         <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
@@ -107,8 +134,14 @@ export default function Services() {
       <div className="strip__inner-text">
         <h2>MobileApps</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
-        <p>
         
+    <ol>
+      <li> Android</li>
+      <li> IOS</li>
+      <li> Cross Platform</li>
+    </ol>
+  
+        <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
       </div>
