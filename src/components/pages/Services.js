@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../../Services.scss';
+import CardGrid from '../CardGrid';
 
 export default function Services() {
   
@@ -9,7 +10,9 @@ export default function Services() {
   const [expanded, setExpanded] = useState(false);
 
   const handleClick = (ev) => {
-   
+
+    
+    console.log(ev);
     console.log(ev.target.id);
 
     const divClicked = ev.target.id; //identificando que elemento fue clickeado
@@ -24,13 +27,27 @@ export default function Services() {
   console.log("DivClicked: ",divClicked); //imprimir que fue clickeado 
 
     if (!expanded) {
-      document.getElementById(`${divClicked}`).classList.add("strips__strip--expanded");
+      try {
+        document.getElementById(`${divClicked}`).classList.add("strips__strip--expanded");
       setExpanded(true); //Cambio la propiedad para poder cerrarlo 
+      } catch (error) {
+        /*------ PRINT -------*/
+        console.log("error ");
+        console.log(error);
+      }
+     
     }
 
     if (expanded) {
-      document.getElementById(`${divClicked}`).classList.remove("strips__strip--expanded");
-      setExpanded(false);//Cambio la propiedad para poder abrirlo 
+      try {
+        document.getElementById(`${divClicked}`).classList.remove("strips__strip--expanded");
+        setExpanded(false);//Cambio la propiedad para poder abrirlo 
+        
+      } catch (error) {
+         /*------ PRINT -------*/
+        console.log("error ");
+        console.log(error);
+      }
     }
   }
 
@@ -48,21 +65,24 @@ export default function Services() {
   <div>
     <section className="strips">
 
-  <article id="back" className="strips__strip" onClick={handleClick}>
-    <div  id="back" className="strip__content">
-      <h1 className="strip__title" data-name="Back">Back-End</h1>
-      <div className="strip__inner-text">
+  <article id="back" name="back" className="strips__strip" onClick={handleClick}>
+    <div  id="back" className="strip__content" onClick={handleClick}>
+      <h1 id="back" className="strip__title" data-name="Back" >Back-End</h1>
+      <div id="back" className="strip__inner-text" onClick={handleClick}>
         <h2>Back-End</h2>
         <p>I have had the opportunity to be certified as an oracle database administrator, however my passion to go further has led me to know relational and non-relational databases.</p><br></br>
           <p>Here are some of them: </p>
+          <CardGrid></CardGrid>
+          
+          <div>
+      <p> Python</p>
+      <p> Node.js</p>
+      <p> Webservers</p>
+      <p> RESTful APIs</p>
+      <p> Docker</p>
+    
+    </div>
 
-          <ol>
-      <li> Node</li>
-      <li> Frameworks - React</li>
-      <li> UX/UI</li>
-      <li> Adobe Suite - XD, Photoshop, Illustrator, Premier Pro</li>
-
-    </ol>
         <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
@@ -77,14 +97,16 @@ export default function Services() {
       <h1 className="strip__title" data-name="Front">Front-End</h1>
       <div className="strip__inner-text">
         <h2>Front-End</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
-        <ol>
-      <li> Basic - HTML-CSS-JavaScript</li>
-      <li> Frameworks - React</li>
-      <li> UX/UI</li>
-      <li> Adobe Suite - XD, Photoshop, Illustrator, Premier Pro</li>
+        <p>Front-end is a fundamental part of my life, it has allowed me to explore my creativity and surprise my friends and co-workers. These are some of the languages and technologies I have used:</p>
+        <div>
+      <p> Core - HTML5-CSS3-JavaScript- webcomponents</p>
+      <p> Frameworks - React</p>
+      <p> UX/UI</p>
+      <p> Adobe Suite - XD, Photoshop, Illustrator, Premier Pro</p>
+      <p> UI Frameworks -> Bootstrap</p>
+      <p> Version Control -> Git</p>
 
-    </ol>
+    </div>
         <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
         </p>
@@ -99,11 +121,11 @@ export default function Services() {
         <p>I have had the opportunity to be certified as an oracle database administrator, however my passion to go further has led me to know relational and non-relational databases.</p><br></br>
           <p>Here are some of them: </p>
 
-          <ol>
-      <li> RDBMS - oracle</li>
-      <li> NoSQL - Mongo</li>
+          <div>
+      <p> RDBMS - oracle</p>
+      <p> NoSQL - Mongo</p>
       
-    </ol>
+    </div>
 
         <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
@@ -116,11 +138,12 @@ export default function Services() {
       <h1 className="strip__title" data-name="Dev">DevOps</h1>
       <div className="strip__inner-text">
         <h2>DevOps</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
-<ol>
-      <li> Infrastructure - Azure & AWS</li>
-      <li> Virtualization - Docker-Kubernetes - VMWARE</li>
-    </ol>
+        <p>DevOps has allowed me to achieve customer satisfaction and deliver services in less time. Also to drive business innovation and to be the engine of continuous process improvements during the phases of Planning, Coding, Compiling, Testing, Deployment, Operation, Monitoring, and Oversight. </p>
+<div>
+      <p> Operation System -> Linux, unix</p>
+      <p> Cloud - Azure & AWS Google Cloud</p>
+      <p> Virtualization - Docker-Kubernetes - VMWARE</p>
+    </div>
 
         <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>
@@ -133,13 +156,13 @@ export default function Services() {
       <h1 className="strip__title" data-name="Movile">MobileApps</h1>
       <div className="strip__inner-text">
         <h2>MobileApps</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
+        <p>It is impossible to live in this century and not think about apps, they make our life so much easier, and now how not to think about apps on mobile devices that we use all the time.</p>
         
-    <ol>
+    <div>
       <li> Android</li>
       <li> IOS</li>
       <li> Cross Platform</li>
-    </ol>
+    </div>
   
         <p>
           <Link href="https://twitter.com/khmmo" target="_blank"><i className="fa fa-twitter"></i></Link>

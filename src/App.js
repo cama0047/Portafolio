@@ -17,6 +17,8 @@ function App() {
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
           <Route path='/contact-me' component={ContactMe} />
+          <Route path='/contact-me' component={ContactMe} />
+          <Route path='/github2' component={() => window.location = 'https://github.com/cama0047/ws-sam-events'}/>
         </Switch>
       </Router>
     </>

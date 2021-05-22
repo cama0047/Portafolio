@@ -8,8 +8,8 @@ export default function SignUp() {
       <h1>Contact Me</h1>
       
       <div>
-
-        Contact Information 
+        <p align="center">Contact Information  </p>
+        
         </div>
 
 

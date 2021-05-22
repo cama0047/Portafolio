@@ -178,6 +178,10 @@ $color5: #f24b4b;
     width: 70%;
     transform: translate(-50%, -50%) scale(0.5);
     opacity: 0;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+
     @include easeOut;
   }
 

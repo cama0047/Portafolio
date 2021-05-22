@@ -14,13 +14,13 @@ function Cards() {
               src='images/Scrapp.png'
               text='Scrap-app: taking the show to another level'
               label='React'
-              path='/services'
+              path='/github2'
             />
             <CardItem
               src='images/img-2.jpg'
               text='Webscrapper to update the firebase database information'
               label='Python'
-              path='/services'
+              path='/github2'
             />
           </ul>
           <ul className='cards__items'>
@@ -28,19 +28,19 @@ function Cards() {
               src='images/AWS.png'
               text='DevOps: Deploy a Docker Image in a AWS:Lambda '
               label='AWS'
-              path='/services'
+              path='/github2'
             />
             <CardItem
               src='images/img-4.png'
               text='Restaurants.com: Restaurant app using yelp API and localization'
               label='React-Native'
-              path='/products'
+              path='/github2'
             />
             <CardItem
               src='images/img-8.jpg'
               text='Music Player'
               label='Cordova'
-              path='/sign-up'
+              path='/github2'
             />
             
           </ul>
@@ -49,19 +49,19 @@ function Cards() {
               src='images/img-1.jpg'
               text='Weather app '
               label='Javascript'
-              path='/services'
+              path='/github2'
             />
             <CardItem
               src='images/c.png'
               text='File Explorer in C# and Xaml'
               label='C#'
-              path='/products'
+              path='/github2'
             />
             <CardItem
               src='images/img-3.jpg'
               text='Music Player'
               label='Cordova'
-              path='/sign-up'
+              path='/github2'
             />
             
           </ul>
