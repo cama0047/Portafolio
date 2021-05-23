@@ -103,8 +103,8 @@ export default function Services() {
       <p> Frameworks - React</p>
       <p> UX/UI</p>
       <p> Adobe Suite - XD, Photoshop, Illustrator, Premier Pro</p>
-      <p> UI Frameworks -> Bootstrap</p>
-      <p> Version Control -> Git</p>
+      <p> UI Frameworks - Bootstrap</p>
+      <p> Version Control - Git</p>
 
     </div>
         <p>
@@ -140,7 +140,7 @@ export default function Services() {
         <h2>DevOps</h2>
         <p>DevOps has allowed me to achieve customer satisfaction and deliver services in less time. Also to drive business innovation and to be the engine of continuous process improvements during the phases of Planning, Coding, Compiling, Testing, Deployment, Operation, Monitoring, and Oversight. </p>
 <div>
-      <p> Operation System -> Linux, unix</p>
+      <p> Operation System - Linux, unix</p>
       <p> Cloud - Azure & AWS Google Cloud</p>
       <p> Virtualization - Docker-Kubernetes - VMWARE</p>
     </div>
