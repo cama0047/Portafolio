@@ -23,6 +23,7 @@ function Cards() {
               path='/github2'
             />
           </ul>
+          {/* line 2 */}
           <ul className='cards__items'>
             <CardItem
               src='images/AWS.png'
@@ -44,11 +45,12 @@ function Cards() {
             />
             
           </ul>
+          {/* Line3 */}
           <ul className='cards__items'>
             <CardItem
               src='images/img-1.jpg'
-              text='Weather app '
-              label='Javascript'
+              text='Movie Finder '
+              label='React'
               path='/github5'
             />
             <CardItem
@@ -62,6 +64,28 @@ function Cards() {
               text='Music Player'
               label='Cordova'
               path='/github7'
+            />
+            
+          </ul>
+          {/* Line 4 */}
+          <ul className='cards__items'>
+            <CardItem
+              src='images/img-1.jpg'
+              text='Weather app '
+              label='Javascript'
+              path='/github8'
+            />
+            <CardItem
+              src='images/c.png'
+              text='File Explorer in C# and Xaml'
+              label='C#'
+              path='/github9'
+            />
+            <CardItem
+              src='images/img-3.jpg'
+              text='Music Player'
+              label='Cordova'
+              path='/github10'
             />
             
           </ul>
