@@ -48,21 +48,21 @@ function Cards() {
           {/* Line3 */}
           <ul className='cards__items'>
             <CardItem
-              src='images/img-1.jpg'
+              src='images/movie-finder.png'
               text='Movie Finder '
-              label='React'
+              label='React+API'
               path='/github5'
             />
             <CardItem
-              src='images/c.png'
-              text='File Explorer in C# and Xaml'
-              label='C#'
+              src='images/RFire.png'
+              text='ChatApp'
+              label='React+Firebase'
               path='/github6'
             />
             <CardItem
-              src='images/img-3.jpg'
-              text='Music Player'
-              label='Cordova'
+              src='images/RRouter.png'
+              text='React Router'
+              label='React'
               path='/github7'
             />
             
