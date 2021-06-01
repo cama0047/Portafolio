@@ -73,8 +73,9 @@ function Cards() {
               src='images/img-1.jpg'
               text='Weather app '
               label='Javascript'
-              path='/github8'
+              path='/github11'
             />
+            
             <CardItem
               src='images/c.png'
               text='File Explorer in C# and Xaml'
@@ -82,10 +83,33 @@ function Cards() {
               path='/github9'
             />
             <CardItem
+              src='images/RExpendTracker.png'
+              text='Expense Tracker '
+              label='React+LocalStorage+Bootstrap'
+              path='/github10'
+            />
+            
+          </ul>
+          {/* Line 5 */}
+          <ul className='cards__items'>
+            
+            <CardItem
+              src='images/img-1.jpg'
+              text='Weather app '
+              label='Javascript'
+              path='/github11'
+            />
+            <CardItem
+              src='images/c.png'
+              text='File Explorer in C# and Xaml'
+              label='C#'
+              path='/github12'
+            />
+            <CardItem
               src='images/img-3.jpg'
               text='Music Player'
               label='Cordova'
-              path='/github10'
+              path='/github13'
             />
             
           </ul>
