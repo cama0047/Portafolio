@@ -73,9 +73,9 @@ function Cards() {
               src='images/img-1.jpg'
               text='Weather app '
               label='Javascript'
-              path='/github11'
+              path='/github8'
             />
-            
+
             <CardItem
               src='images/c.png'
               text='File Explorer in C# and Xaml'
