@@ -77,9 +77,9 @@ function Cards() {
             />
 
             <CardItem
-              src='images/c.png'
-              text='File Explorer in C# and Xaml'
-              label='C#'
+              src='images/adobe.jpeg'
+              text='Adobe XD Plug-In '
+              label='React + AdobeConsole'
               path='/github9'
             />
             <CardItem
