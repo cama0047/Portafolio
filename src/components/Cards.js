@@ -29,19 +29,19 @@ function Cards() {
               src='images/AWS.png'
               text='DevOps: Deploying a webscraper using Docker in a AWS:Lambda '
               label='AWS'
-              path='/'
+              path='/github3'
             />
             <CardItem
               src='images/img-4.png'
               text='Restaurants.com: Restaurant app using yelp API and localization'
               label='React-Native'
-              path='/github3'
+              path='/github4'
             />
             <CardItem
               src='images/img-8.jpg'
               text='Server - MongoDB'
               label='MongoDB CRUD'
-              path='/github4'
+              path='/github5'
             />
             
           </ul>
@@ -51,19 +51,19 @@ function Cards() {
               src='images/movie-finder.png'
               text='Movie Finder '
               label='React+API'
-              path='/github5'
+              path='/github6'
             />
             <CardItem
               src='images/RFire.png'
               text='ChatApp'
               label='React+Firebase'
-              path='/github6'
+              path='/github7'
             />
             <CardItem
               src='images/RRouter.png'
               text='React Router'
               label='React'
-              path='/github7'
+              path='/github8'
             />
             
           </ul>
@@ -73,20 +73,20 @@ function Cards() {
               src='images/img-1.jpg'
               text='Weather app '
               label='Javascript'
-              path='/github8'
+              path='/github9'
             />
 
             <CardItem
               src='images/adobe.jpeg'
               text='Adobe XD Plug-In '
               label='React + AdobeConsole'
-              path='/github9'
+              path='/github10'
             />
             <CardItem
               src='images/RExpendTracker.png'
               text='Expense Tracker '
               label='React+LocalStorage+Bootstrap'
-              path='/github10'
+              path='/github11'
             />
             
           </ul>
@@ -97,19 +97,19 @@ function Cards() {
               src='images/img-1.jpg'
               text='Weather app '
               label='Javascript'
-              path='/github11'
+              path='/github12'
             />
             <CardItem
               src='images/c.png'
               text='File Explorer in C# and Xaml'
               label='C#'
-              path='/github12'
+              path='/github13'
             />
             <CardItem
               src='images/img-3.jpg'
               text='Music Player'
               label='Cordova'
-              path='/github13'
+              path='/github14'
             />
             
           </ul>
