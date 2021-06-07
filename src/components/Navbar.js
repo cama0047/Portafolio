@@ -62,11 +62,11 @@ function Navbar() {
 
             <li>
               <Link
-                to='/Contact-me'
+                to='/contact-me'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Contact Me
               </Link>
             </li>
           </ul>
