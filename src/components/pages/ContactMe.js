@@ -19,9 +19,15 @@ messagesContainer.innerHTML=
 
 setTimeout(() => {
     messagesContainer.innerHTML =''
-}, 4000);
+}, 3500);
       }, (error) => {
-          console.log(error.text);
+          const messagesContainer = document.querySelector('.form-messages')
+messagesContainer.innerHTML=
+        `<div class="alert alert-danger" role="alert">
+          OOps Houston we have a problem ! </div>`
+          setTimeout(() => {
+    messagesContainer.innerHTML =''
+}, 3500);
       });
 
       e.target.reset();
