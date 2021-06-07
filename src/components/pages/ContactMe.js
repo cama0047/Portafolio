@@ -32,13 +32,14 @@ messagesContainer.innerHTML=
       e.target.reset();
   }
   return (
-    <div className='pb-5'>
-      <h1>Contact Me</h1>
+   
       
        <div>
+           
        <div className='form-messages'></div>
             <div className="container">
-            <form onSubmit={sendEmail}>
+                <h1>Contact Me</h1>
+            <form onSubmit={sendEmail} mx-auto>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name"/>
@@ -55,10 +56,14 @@ messagesContainer.innerHTML=
                         <div className="col-8 pt-3 mx-auto">
                             <input type="submit" className="btn btn-info" value="Send Message"></input>
                         </div>
+                        <div className="col-8 pt-3 mx-auto">
+                            
+                        </div>
+
                     </div>
                 </form>
             </div>
-        </div>
+        
 
 
       <Footer/>
