@@ -68,6 +68,7 @@ function Navbar() {
               >
                 Contact Me
               </Link>
+              
             </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
