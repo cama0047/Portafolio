@@ -29,10 +29,8 @@ messagesContainer.innerHTML=
     messagesContainer.innerHTML =''
 }, 3500);
       });
-
       e.target.reset();
   }
-
 
   return (
     <div className='pb-5'>
