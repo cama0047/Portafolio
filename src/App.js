@@ -17,17 +17,20 @@ function App() {
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
           <Route path='/contact-me' component={ContactMe} />
-          <Route path='/contact-me' component={ContactMe} />
           <Route path='/github1' component={() => window.location = 'https://github.com/Scrap-Arts-Music'}/>
           <Route path='/github2' component={() => window.location = 'https://github.com/cama0047/ws-sam-events'}/>
-          <Route path='/github3' component={() => window.location = 'https://github.com/cama0047/Resto-react-native-yelp'}/>
-          <Route path='/github4' component={() => window.location = 'https://github.com/cama0047/mongoDB-crud'}/>
-          <Route path='/github5' component={() => window.location = 'https://moviefinder-cc.netlify.app/'}/>
-          <Route path='/github6' component={() => window.location = 'https://github.com/'}/>
-          <Route path='/github7' component={() => window.location = 'https://github.com/React-router'}/>
-          <Route path='/github8' component={() => window.location = 'https://github.com/cama0047/WeatherApp'}/>
-          <Route path='/github9' component={() => window.location = 'https://github.com/cama0047/FileExplorer-c-'}/>
-          <Route path='/github10' component={() => window.location = 'https://github.com/cama0047/Music-player'}/>
+          <Route path='/github3' component={() => window.location = 'https://github.com/cama0047/Web-scraping-001'}/>
+          <Route path='/github4' component={() => window.location = 'https://github.com/cama0047/Resto-react-native-yelp'}/>
+          <Route path='/github5' component={() => window.location = 'https://github.com/cama0047/mongoDB-crud'}/>
+          <Route path='/github6' component={() => window.location = 'https://moviefinder-cc.netlify.app/'}/>
+          <Route path='/github7' component={() => window.location = 'https://github.com/cama0047/ChatApp'}/>
+          <Route path='/github8' component={() => window.location = 'https://github.com/cama0047/React-router'}/>
+          <Route path='/github9' component={() => window.location = 'https://github.com/cama0047/WeatherApp'}/>
+          <Route path='/github10' component={() => window.location = 'https://github.com/cama0047/AdobeXdPlugIn'}/>
+          <Route path='/github11' component={() => window.location = 'https://github.com/cama0047/Expense-Tracker'}/>
+          <Route path='/github12' component={() => window.location = 'https://github.com/cama0047/WeatherApp'}/>
+          <Route path='/github13' component={() => window.location = 'https://github.com/cama0047/FileExplorer-c-'}/>
+          <Route path='/github14' component={() => window.location = 'https://github.com/cama0047/Music-player'}/>
 
         </Switch>
       </Router>
