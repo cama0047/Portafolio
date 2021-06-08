@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import ContactMe from './components/pages/ContactMe';
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
